@@ -1,10 +1,11 @@
 package com.example.dbens_000.backtrackscreens;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
 
 public class MainMenu extends AppCompatActivity {
 
@@ -12,8 +13,6 @@ public class MainMenu extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main_menu);
-        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
-        setSupportActionBar(toolbar);
 
             }
 
@@ -37,5 +36,33 @@ public class MainMenu extends AppCompatActivity {
         }
 
         return super.onOptionsItemSelected(item);
+    }
+
+    public void onCustomizeAlertsButtonClick(View v){
+
+        Intent myIntent = new Intent(this, CustomizeAlerts.class);
+        startActivity(myIntent);
+
+    }
+
+    public void onEditProfileButtonClick(View v){
+
+        //Intent myIntent = new Intent(this, EditProfile.class);
+        //startActivity(myIntent);
+
+    }
+
+    public void onSignOutButtonClick(View v){
+
+        //Intent myIntent = new Intent(this, SignOut.class);
+        //startActivity(myIntent);
+
+    }
+
+    public void onEditThresholdButtonClick(View v){
+
+        //Intent myIntent = new Intent(this, EditThreshold.class);
+        //startActivity(myIntent);
+
     }
 }

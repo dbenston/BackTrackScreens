@@ -28,6 +28,11 @@
             android:label="@string/title_activity_home_page"
             android:theme="@style/AppTheme.NoActionBar" >
         </activity>
+        <activity
+            android:name=".CustomizeAlerts"
+            android:label="@string/title_activity_customize_alerts"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
     </application>
 
 </manifest>

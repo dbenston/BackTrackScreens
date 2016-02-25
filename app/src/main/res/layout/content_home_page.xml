@@ -194,6 +194,7 @@
             android:textColor="#990202"
             android:textIsSelectable="true"
             android:layout_marginTop="150dp"
-            android:layout_marginBottom="30dp"/>
+            android:layout_marginBottom="30dp"
+            android:onClick="onSignOutButtonClick"/>
     </LinearLayout>
 </RelativeLayout>

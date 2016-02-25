@@ -2,6 +2,7 @@ package com.example.dbens_000.backtrackscreens;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.view.View;
 import android.widget.TextView;
 
 public class HomePage extends AppCompatActivity {
@@ -34,6 +35,13 @@ public class HomePage extends AppCompatActivity {
         weight_text = (TextView)findViewById(R.id.weightText);
         weight_text.setText(weightString + " lbs");
 
+
+    }
+
+    public void onSignOutButtonClick(View v){
+
+        //Intent myIntent = new Intent(this, SignOut.class);
+        //startActivity(myIntent);
 
     }
 

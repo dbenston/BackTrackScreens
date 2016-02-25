@@ -6,19 +6,15 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
-    tools:context=".MainMenu">
+    tools:context="com.example.dbens_000.backtrackscreens.CustomizeAlerts">
 
     <android.support.design.widget.AppBarLayout
         android:layout_height="wrap_content"
         android:layout_width="match_parent"
         android:theme="@style/AppTheme.AppBarOverlay">
 
-
-
-
     </android.support.design.widget.AppBarLayout>
 
-    <include layout="@layout/content_main_menu"/>
-
+    <include layout="@layout/content_customize_alerts"/>
 
 </android.support.design.widget.CoordinatorLayout>
